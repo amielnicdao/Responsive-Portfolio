@@ -221,7 +221,15 @@ input[type=submit] {
     width: 600px;
     margin-left: 50px;
   }
+
+  #contact-form {
+    width: 550px;
+
+  }
+
+ 
 }
+
  
 @media screen and (max-width: 768px)  {
   .container {
@@ -232,6 +240,7 @@ input[type=submit] {
     width: 350px;
     height: 250px;
   }
+
 }
   
 @media screen and (max-width: 640px)  {
@@ -251,5 +260,14 @@ input[type=submit] {
 
   nav {
     margin-right: 150px;
+  }
+
+  .work {
+    float: none;
+    margin-left: 80px;
+  }
+
+  #contact-form {
+    width: 450px;
   }
 }
