@@ -224,10 +224,7 @@ input[type=submit] {
 
   #contact-form {
     width: 550px;
-
   }
-
- 
 }
 
  
@@ -240,10 +237,13 @@ input[type=submit] {
     width: 350px;
     height: 250px;
   }
-
 }
   
 @media screen and (max-width: 640px)  {
+  header {
+    position: static;
+  }
+  
   .container {
     width: 500px;
   }
